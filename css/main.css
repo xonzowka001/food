@@ -22,6 +22,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background: rgba(181, 193, 246, 0.1490196078);
 }
 
 .food__list {
@@ -74,4 +75,108 @@ body {
   .food__item {
     display: none;
   }
+}
+.fastfood__list {
+  max-width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fastfood__img {
+  max-width: 400px;
+}
+
+.fastfood__title {
+  font-family: Rubik;
+  font-size: 66px;
+  margin-bottom: 23px;
+  margin-top: 45px;
+}
+
+.fastfood__text {
+  color: rgb(54, 56, 83);
+  font-family: Rubik;
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+
+.fastfood__btn {
+  color: rgb(255, 255, 255);
+  font-family: Rubik;
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: #f33333;
+  margin-right: 7px;
+  border-radius: 5px;
+}
+
+.fastfood__link {
+  color: rgb(54, 56, 83);
+  font-family: Rubik;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 838px) {
+  .fastfood__list {
+    max-width: 1000px;
+    font-size: 50px;
+  }
+  .fastfood__img {
+    max-width: 375px;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 808px) {
+  .fastfood__list {
+    max-width: 975px;
+    font-size: 43px;
+  }
+  .fastfood__img {
+    max-width: 355px;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 674px) {
+  .fastfood__list {
+    max-width: 855px;
+    font-size: 35px;
+    flex-direction: column;
+  }
+  .fastfood__img {
+    max-width: 325px;
+    font-size: 30px;
+  }
+}
+.our__title {
+  font-family: Rubik;
+  font-size: 36px;
+  text-align: center;
+}
+
+.our__list {
+  max-width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.our__item {
+  color: rgb(54, 56, 83);
+  font-family: Rubik;
+  font-size: 20px;
+  max-width: 850px;
+  padding: 13px 37px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.our__item2 {
+  color: rgb(54, 56, 83);
+  font-family: Rubik;
+  font-size: 20px;
+  background-color: hsl(0, 91%, 62%);
+  padding: 13px 37px;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */

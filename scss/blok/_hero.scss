@@ -1,0 +1,76 @@
+ .fastfood__list{
+  max-width: 1050px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.fastfood__img{
+  max-width: 400px;
+}
+.fastfood__title{
+  font-family: Rubik;
+font-size: 66px;
+margin-bottom: 23px;
+margin-top: 45px;
+}
+.fastfood__text{
+  color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 20px;
+margin-bottom: 27px;
+}
+.fastfood__btn{
+  color: rgb(255, 255, 255);
+font-family: Rubik;
+font-size: 20px;
+padding: 10px 15px;
+background-color: #f33333;
+margin-right: 7px;
+border-radius: 5px;
+}
+.fastfood__link{
+  color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width:838px) {
+.fastfood__list {
+max-width: 1000px;
+font-size: 50px;
+}
+.fastfood__img{
+  max-width: 375px;
+  font-size: 45px;
+}
+
+}
+@media screen and (max-width:808px) {
+  .fastfood__list{
+    max-width: 975px;
+    font-size: 43px;
+  }
+  .fastfood__img{
+    max-width: 355px;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width:674px) {
+  .fastfood__list{
+    max-width:855px;
+    font-size:35px ;
+    flex-direction: column;
+   
+  }
+  .fastfood__img{
+    max-width: 325px;
+    font-size: 30px;
+  
+  
+  }
+
+  
+}
