@@ -6,6 +6,8 @@ align-items: center;
 }
 .fastfood__img{
   max-width: 400px;
+
+  
 }
 .fastfood__title{
   font-family: Rubik;
@@ -61,16 +63,10 @@ font-size: 50px;
 @media screen and (max-width:674px) {
   .fastfood__list{
     max-width:855px;
-    font-size:35px ;
     flex-direction: column;
    
   }
-  .fastfood__img{
-    max-width: 325px;
-    font-size: 30px;
   
-  
-  }
 
   
 }
